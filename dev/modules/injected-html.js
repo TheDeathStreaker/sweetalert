@@ -1,4 +1,4 @@
-var injectedHTML = 
+var injectedHTML =
 
   // Dark overlay
   `<div class="sweet-overlay" tabIndex="-1"></div>` +
@@ -37,10 +37,11 @@ var injectedHTML =
     // Title, text and input
     `<h2>Title</h2>
     <p>Text</p>
+    <form name="sweetalert" id="sfdkfjdk" tabindex="-1">
     <fieldset>
-      <input type="text" tabIndex="3" />
+      <input type="text" tabindex="-1" />
       <div class="sa-input-error"></div>
-    </fieldset>` +
+    </fieldset></form>` +
 
     // Input errors
     `<div class="sa-error-container">
@@ -52,7 +53,7 @@ var injectedHTML =
     `<div class="sa-button-container">
       <button class="cancel" tabIndex="2">Cancel</button>
       <div class="sa-confirm-button-container">
-        <button class="confirm" tabIndex="1">OK</button>` + 
+        <button class="confirm" tabIndex="1">OK</button>` +
 
         // Loading animation
         `<div class="la-ball-fall">

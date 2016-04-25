@@ -110,7 +110,7 @@ var setParameters = function(params) {
         $input.setAttribute('placeholder', params.inputPlaceholder);
         addClass(modal, 'show-input');
         setTimeout(function () {
-          $input.focus();
+          //$input.focus();
           $input.addEventListener('keyup', swal.resetInputError);
         }, 400);
         break;
